@@ -24,4 +24,6 @@ export function findProduct(id) {
   return products.find(product => product.id === id);
 }
 
-console.log("changes ")
+export function getProductName(){
+    return 'mouse'
+}
