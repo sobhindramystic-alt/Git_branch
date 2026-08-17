@@ -25,5 +25,5 @@ export function findProduct(id) {
 }
 
 export function getProductName(){
-    return 'mouse'
+    return 'Keyboard'
 }
