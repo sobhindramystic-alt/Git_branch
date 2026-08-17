@@ -23,3 +23,7 @@ export function getProducts() {
 export function findProduct(id) {
   return products.find(product => product.id === id);
 }
+
+export function getProductCount() {
+  return products.length;
+}
