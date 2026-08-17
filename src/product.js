@@ -23,3 +23,9 @@ export function getProducts() {
 export function findProduct(id) {
   return products.find(product => product.id === id);
 }
+
+export function searchProducts(query) {
+  return products.filter(product =>
+    product.name.toLowerCase().includes(query.toLowerCase())
+  );
+}
