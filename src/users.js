@@ -16,3 +16,7 @@ export function getUsers() {
 export function findUser(id) {
   return users.find(user => user.id === id);
 }
+
+export function getUserCount() {
+  return users.length;
+}
