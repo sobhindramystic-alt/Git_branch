@@ -15,3 +15,7 @@ export function createOrder(user, cart) {
 export function getOrders() {
   return orders;
 }
+
+export function getOrderOfUser(){
+  console.log("here is the order of user:")
+}

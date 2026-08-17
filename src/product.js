@@ -23,3 +23,5 @@ export function getProducts() {
 export function findProduct(id) {
   return products.find(product => product.id === id);
 }
+
+console.log("changes ")
