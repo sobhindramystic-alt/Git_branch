@@ -23,3 +23,9 @@ export function getProducts() {
 export function findProduct(id) {
   return products.find(product => product.id === id);
 }
+
+export function getProductPrice(id) {
+  const product = products.find(product => product.id === id);
+
+  return product?.price;
+}
